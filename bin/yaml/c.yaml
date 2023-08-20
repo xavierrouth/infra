@@ -89,6 +89,11 @@ compilers:
         check_exe: build/lcc --version
         targets:
           - trunk
+      lc3:
+        type: nightly
+        check_file: lc3-compile
+        targets:
+          - trunk
     cross:
       type: s3tarballs
       arch_prefix:
